@@ -4,7 +4,8 @@
   "description": "Jawaban nomor 06 soal test bootcamp Arkademy Batch 14, membuat Arkademy Coffee Shop",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [
     "node.js",
