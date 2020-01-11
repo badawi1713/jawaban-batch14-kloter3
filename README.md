@@ -85,6 +85,6 @@ name | Varchar | 255
 
 #### 10th image, tampilan tabel dengan perubahan data yang berhasil dihapus sebelumnya.
 
-![Tenth image](https://raw.githubusercontent.com/badawi1713/jawaban-batch14-kloter3/master/jawaban-06/public/assets/readme-images/10.PNG)
+![Tenth image](https://raw.githubusercontent.com/badawi1713/jawaban-batch14-kloter3/master/jawaban-06/public/assets/readme-images/11.PNG)
 
 ### Thank you!
