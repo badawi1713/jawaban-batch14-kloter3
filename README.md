@@ -6,7 +6,7 @@
 ##### Untuk jawaban nomor 1 dan 2 saya menggunakan bahasa pemrograman Javascript yang dapat deksekusi melalui https://es6console.com/
 
 #### Jawaban nomor 3-5:
-##### Untuk jawaban nomor 3-5 saya memang belum mengerjakannya karena keterbatasan kemampuan saya
+##### Untuk jawaban nomor 3-5 saya memang belum mengerjakannya karena keterbatasan kemampuan saya.
 
 #### Jawaban nomor 6:
 ##### Untuk hasil jawaban nomor 6 membuat sistem POS sederhana, yang dilakukan pertama kali adalah membuat database seperti yang saya gunakan dengan nama "db_pos" kemudian import tabel-tabel yang ada pada folder "database\db_pos", lalu lakukan konfigurasi database yang ada pada folder 'utils/connection.js' sesuai dengan pengaturan yang diinginkan.
@@ -48,42 +48,43 @@ name | Varchar | 255
 ### Demo Example of basic POS App CRUD with Node.js (Express), EJS, and MYSQL:
 #### 1st image, halaman utama yang menampilkan daftar produk. Dimana user dapat melihat daftar produk yang telah ditambahkan dan juga terdapat tombol untuk menambah produk pada bagian kanan atas. Pada tabel tampilan produk, terdapat 2 tombol aksi yang dilakukan yaitu mengubah data produk atau menghapus data produk.
 
-![First image](https://github.com/badawi1713/soal-beta-class/blob/master/jawaban-06/pos-app-basic/public/images/1.PNG)
+![First image](https://raw.githubusercontent.com/badawi1713/jawaban-batch14-kloter3/master/jawaban-06/public/assets/readme-images/1.PNG)
 
 #### 2nd image, untuk menambah produk baru, user dapat mengisikan form add produk dengan menekan tombol ADD pada navbar halaman indeks.
 
-![Second image](https://github.com/badawi1713/soal-beta-class/blob/master/jawaban-06/pos-app-basic/public/images/2.PNG)
+![Second image](https://raw.githubusercontent.com/badawi1713/jawaban-batch14-kloter3/master/jawaban-06/public/assets/readme-images/2.PNG)
 
 #### 3rd image, tampilan modal yang muncul apabila user mengklik tombol ADD sebelumnya untuk memasukkan data produk baru.
 
-![Third image](https://github.com/badawi1713/soal-beta-class/blob/master/jawaban-06/pos-app-basic/public/images/3.PNG)
+![Third image](https://raw.githubusercontent.com/badawi1713/jawaban-batch14-kloter3/master/jawaban-06/public/assets/readme-images/3.PNG)
 
 #### 4th image, user mencoba untuk menambah produk yang akan ditambahkan.
 
-![Fourth image](https://github.com/badawi1713/soal-beta-class/blob/master/jawaban-06/pos-app-basic/public/images/4.PNG)
+![Fourth image](https://raw.githubusercontent.com/badawi1713/jawaban-batch14-kloter3/master/jawaban-06/public/assets/readme-images/4.PNG)
 
 #### 5th image, tampilan tabel dengan tambahan data produk baru yang berhasil ditambahkan.
 
-![Fifth image](https://github.com/badawi1713/soal-beta-class/blob/master/jawaban-06/pos-app-basic/public/images/5.PNG)
+![Fifth image](https://raw.githubusercontent.com/badawi1713/jawaban-batch14-kloter3/master/jawaban-06/public/assets/readme-images/5.PNG)
 
 #### 6th image, apabila ingin mengubah data produk user mengklik aksi tombol EDIT, kemudian akan tampil modal form EDIT seperti berikut.
 
-![Sixth image](https://github.com/badawi1713/soal-beta-class/blob/master/jawaban-06/pos-app-basic/public/images/6.PNG)
+![Sixth image](https://raw.githubusercontent.com/badawi1713/jawaban-batch14-kloter3/master/jawaban-06/public/assets/readme-images/6.PNG)
 
 #### 7th image, user mencoba untuk mengubah data produk yang dipilih untuk diubah.
 
-![Sixth image](https://github.com/badawi1713/soal-beta-class/blob/master/jawaban-06/pos-app-basic/public/images/6.PNG)
+![Seventh image](https://raw.githubusercontent.com/badawi1713/jawaban-batch14-kloter3/master/jawaban-06/public/assets/readme-images/7.PNG)
 
 #### 8th image, tampilan tabel dengan perubahan data yang berhasil diubah sebelumnya.
 
-![Fifth image](https://github.com/badawi1713/soal-beta-class/blob/master/jawaban-06/pos-app-basic/public/images/5.PNG)
+![Eight image](https://raw.githubusercontent.com/badawi1713/jawaban-batch14-kloter3/master/jawaban-06/public/assets/readme-images/8.PNG)
 
 #### 9th image, apabila user ingin menghapus data produk maka dapat mengklik tombol aksi DELETE kemudian akan muncuk konfirmasi seperti pada gambar berikut.
 
-![Fifth image](https://github.com/badawi1713/soal-beta-class/blob/master/jawaban-06/pos-app-basic/public/images/5.PNG)
+![Ninth.a image](https://raw.githubusercontent.com/badawi1713/jawaban-batch14-kloter3/master/jawaban-06/public/assets/readme-images/9.PNG)
+![Ninth.b image](https://raw.githubusercontent.com/badawi1713/jawaban-batch14-kloter3/master/jawaban-06/public/assets/readme-images/10.PNG)
 
 #### 10th image, tampilan tabel dengan perubahan data yang berhasil dihapus sebelumnya.
 
-![Fifth image](https://github.com/badawi1713/soal-beta-class/blob/master/jawaban-06/pos-app-basic/public/images/5.PNG)
+![Tenth image](https://raw.githubusercontent.com/badawi1713/jawaban-batch14-kloter3/master/jawaban-06/public/assets/readme-images/10.PNG)
 
 ### Thank you!
