@@ -48,7 +48,7 @@ name | Varchar | 255
 2. nodemon atau npm run start
 ```
 ```
-3. Lalu bukalah browser anda dan maskkan url; localhost:3001
+3. Lalu bukalah browser anda dan ketikkan url; localhost:3001
 ```
 
 ### Demo Example of basic POS App CRUD with Node.js (Express), EJS, and MYSQL:
