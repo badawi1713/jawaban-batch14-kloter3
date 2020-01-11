@@ -1,9 +1,15 @@
 # Jawaban untuk Soal Batch 14 Kloter 3 Arkademy Class (11/01/2020)
 #### Oleh: Dzaky Badawi
 
-### Bismillah
+### *Bismillah*
 #### Jawaban nomor 1 dan 2:
 ##### Untuk jawaban nomor 1 dan 2 saya menggunakan bahasa pemrograman Javascript yang dapat deksekusi melalui https://es6console.com/
+
+#### Beberapa kegunaan JSON pada REST API:
+##### *Digunakan sebagai format standar untuk pertukaran data antar aplikasi atau antar sisi client dan sisi server.
+##### *Format JSON juga sering digunakan karena dapat lebih mudah dibaca, ketimbang format lain; XML, raw, dll.
+##### *JSON memiliki ukuran yang kecil, sehingga lebih cepat diproses.
+###### Referensi: https://www.petanikode.com/json-pemula/
 
 #### Jawaban nomor 3-5:
 ##### Untuk jawaban nomor 3-5 saya memang belum mengerjakannya karena keterbatasan kemampuan saya.
