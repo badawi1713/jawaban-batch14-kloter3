@@ -1,0 +1,50 @@
+<!-- Modal for Edit button -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">EDIT</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span style="color: red; font-weight:bold;" aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="/edit-product" enctype="application/x-www-form-urlencoded" method="POST">
+                    <input class="form-control product_id" type="hidden" name="id">
+                    <div class="form-group">
+                        <label for="cashier">Cashier's Name </label>
+                        <select name="id_cashier" class="form-control product_cashier">
+                            <% dataCashier.forEach((v) => { %>
+                            <option value="<%= v.id%>"> <%=v.name%> </option>
+                            <% }) %>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="product_name">Product Name</label>
+                        <input required name="name" type="text" class="form-control product_name"
+                            placeholder="Input your product name" id="addProductName">
+                    </div>
+                    <div class="form-group">
+                        <label for="category">Category </label>
+                        <select name="id_category" class="form-control product_category">
+                            <% dataCategory.forEach((v) => { %>
+                            <option value="<%= v.id%>"> <%=v.name%> </option>
+                            <% }) %>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="price">Price </label>
+                        <input required name="price" type="number" class="form-control product_price"
+                            placeholder="Input your product's price" id="addProductPrice">
+                    </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="add-btn">EDIT</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- End of Modal for Edit button -->

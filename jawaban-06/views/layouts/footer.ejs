@@ -1,0 +1,42 @@
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+</script>
+
+<script>
+    // Insert Form Add Product Script
+    $('#exampleModal').on('show.bs.modal', function (event) {});
+
+    // Edit List Item Modal script
+    $(document).on("click", '.edit_button', function (e) {
+        var product_name = $(this).data('product_name');
+        var price = $(this).data('price');
+        var category = $(this).data('category');
+        var cashier = $(this).data('cashier');
+        var id = $(this).data('id');
+        $(".product_id").val(id);
+        $(".product_name").val(product_name);
+        $(".product_price").val(price);
+        $(".product_category").val(category);
+        $(".product_cashier").val(cashier);
+    });
+
+    function deleteProduct() {
+        var r = confirm('Confirmation to delete this product?');
+        if (r == true) {
+            alert('Product item deleted!');
+        } else {
+            alert('Delete product item have been canceled!');
+            return false;
+        }
+    };
+</script>
+
+</body>
+
+</html>

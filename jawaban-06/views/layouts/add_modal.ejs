@@ -1,0 +1,49 @@
+<!-- Add Product Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">ADD</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span style="color: red; font-weight:bold;" aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="/add-product" enctype="application/x-www-form-urlencoded" method="POST">
+                    <div class="form-group">
+                        <label for="cashier">Cashier's Name </label>
+                        <select name="id_cashier" class="form-control">
+                            <% dataCashier.forEach((v) => { %>
+                            <option value="<%= v.id%>"> <%=v.name%> </option>
+                            <% }) %>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="product_name">Product Name</label>
+                        <input required name="name" type="text" class="form-control"
+                            placeholder="Input your product name" id="addProductName">
+                    </div>
+                    <div class="form-group">
+                        <label for="cashier">Product Category </label>
+                        <select name="id_category" class="form-control">
+                            <% dataCategory.forEach((v) => { %>
+                            <option value="<%= v.id%>"> <%=v.name%> </option>
+                            <% }) %>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="price">Price </label>
+                        <input required name="price" type="number" class="form-control" placeholder="Rp 5000"
+                            id="addProductPrice">
+                    </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="reset" class="reset-btn">RESET</button>
+                <button onclick="return checkLengthAdd()" type="submit" class="add-btn">ADD</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
